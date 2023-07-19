@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'project_final.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydb',
-        'USER': 'root',
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'cmed',
+        'USER': 'JDASILVA',
         'PASSWORD': 'dasilver07',
         'HOST': 'localhost',
-        'PORT': '3306'
+        'PORT': '1521'
     }
 }
 
